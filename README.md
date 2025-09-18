@@ -1,3 +1,1 @@
-# ft-css-store.github.io
-A place where you can get and upload themes onto FlashThemes.
-This is currently under construction. Do not use this website.
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/148db584-bce0-4326-93fc-e7524313a532" />
