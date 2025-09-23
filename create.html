@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Theme - FlashThemes CSS Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="about.html" class="nav-link">About</a>
+    <a href="explore.html" class="nav-link">Explore</a>
+    <button class="create-btn" id="createBtn"></button>
+  </div>
+
+  <div class="content">
+    <h1>Upload Your CSS Theme</h1>
+    <p>You can upload your designs here!! :D</p>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="themeName">Name of theme:</label><br>
+      <input type="text" id="themeName" name="themeName" required><br><br>
+
+      <!-- Option 1: Upload CSS file -->
+      <label for="themeFile">Upload CSS File:</label><br>
+      <input type="file" id="themeFile" name="themeFile" accept=".css"><br><br>
+
+      <p style="font-weight: bold;">or...</p>
+
+      <!-- Option 2: Paste CSS -->
+      <label for="themeCode">Paste Your CSS:</label><br>
+      <textarea id="themeCode" name="themeCode" rows="10" cols="60" placeholder="Type or paste your CSS here..."></textarea><br><br>
+
+      <button type="submit">Submit Theme!</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
